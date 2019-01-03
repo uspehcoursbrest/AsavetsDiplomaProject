@@ -18,6 +18,376 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
-
-
+.header-top .top-mail {
+    font-size: 14px;
+    line-height: 36px;
+    color: #66aaf5;
+    text-decoration: none;
+}
+.top-time .time-title {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.top-time .time-hour {
+    font-size: 15px;
+    line-height: 30px;
+    color: #66aaf5;
+}
+.top-time .time-date {
+    font-size: 15px;
+    line-height: 30px;
+    color: #9ca2a8;
+}
+.top-reg a {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.header-bottom .menu li {
+    font-size: 15px;
+    line-height: 30px;
+    color: #263441;
+    text-decoration: none;
+}
+.banner-caption span:nth-child(1) {
+    font-size: 30px;
+    line-height: 90px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.banner-caption span:nth-child(2) {
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.banner-caption span:nth-child(3) {
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.banner-caption a {
+    font-size: 17px;
+    line-height:30px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+.ct {
+    font-size: 17px;
+    line-height: 70px;
+    color: #263441;
+}
+.cti {
+    font-size: 50px;
+    line-height: 70px;
+    color: #263441;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content-text p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+}
+.content-text p span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+    font-weight: 500;
+}
+.content-text li {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+}
+.info-certificate span {
+    font-size: 15px;
+    line-height: 24px;
+    color: #589ae3;
+}
+.info-certificate p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #263441;
+}
+.our-mission .img {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.dt {
+    font-size: 17px;
+    line-height: 70px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.dtt {
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.description-text p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.description-list .list-item p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.item-list span:nth-child(1) {
+    font-size: 17px;
+    line-height: 100px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.item-list span:nth-child(2) {
+    font-size: 50px;
+    line-height: 100px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.info-list span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.info-list p {
+    font-size: 17px;
+    line-height: 36px;
+    color: #263441;
+}
+.offers-invest .cap {
+    font-size: 17px;
+    line-height: 70px;
+    color: #263441;
+    text-transform: uppercase;
+}
+.offers-invest .capt {
+    font-size: 36px;
+    line-height: 50px;
+    color: #263441;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.list-tarif1 span {
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.list-tarif2 span {
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.list-tarif3 span {
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.list-tarif1 .tarif-per span:nth-child(1) {
+    font-size: 70px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.list-tarif1 .tarif-per span:nth-child(2) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.list-tarif1 .list-description span {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+.list-tarif1 .list-button {
+    font-size: 17px;
+    line-height: 30px;
+    color: #2173ce;
+}
+.list-tarif2 .tarif-per span:nth-child(1) {
+    font-size: 70px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.list-tarif2 .tarif-per span:nth-child(2) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.list-tarif2 .list-description span {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+.list-tarif2 .list-button {
+    font-size: 17px;
+    line-height: 30px;
+    color: #589ae3;
+}
+.list-tarif3 .tarif-per span:nth-child(1) {
+    font-size: 70px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.list-tarif3 .tarif-per span:nth-child(2) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.list-tarif3 .list-description span {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+.list-tarif3 .list-button {
+    font-size: 17px;
+    line-height: 30px;
+    color: #89c1ff;
+}
+.prog-caption span:nth-child(1) {
+    font-size: 17px;
+    line-height: 90px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.prog-caption span:nth-child(2) {
+    font-size: 70px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.description-info p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.description-rates span {
+    font-size: 70px;
+    line-height: 30px;
+    color: #61acff;
+    font-weight: 700;
+}
+.feedback-text p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #778b9d;
+}
+.feedback-avatar .name {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.feedback-avatar .prof {
+    font-size: 17px;
+    line-height: 30px;
+    color: #589ae3;
+}
+.news-caption .nc {
+    font-size: 17px;
+    line-height: 70px;
+    color: #263441;
+    text-transform: uppercase;
+}
+.news-caption .nca {
+    font-size: 36px;
+    line-height: 50px;
+    color: #263441;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wrapper-new span {
+    font-size: 15px;
+    line-height: 22px;
+    color: #589ae3;
+}
+.wrapper-new .caption {
+    font-size: 17px;
+    line-height: 30px;
+    color: #3c3950;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wrapper-new .text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #778b9d;
+}
+.payments {
+}
+.footer-left .left-text span {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer-left .left-text p {
+    font-size: 15px;
+    line-height: 33px;
+    color: #ffffff;
+}
+.footer-right .right-certificate span {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer-right .right-certificate p {
+    font-size: 15px;
+    line-height: 33px;
+    color: #ffffff;
+}
+.list-info .info-phone {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.list-info a {
+    font-size: 15px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.list-info .info-only {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+}
+.info-mail .mail {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.info-mail a {
+    font-size: 15px;
+    line-height: 33px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
