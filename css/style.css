@@ -18,38 +18,89 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+.header-top .container {
+
+}
+.table {
+    display: table;
+}
+.table-cell {
+    display: table-cell;
+}
+.header-top {
+    text-align: right;
+    background-color: #263441;
+}
+.header-top img {
+    display: table-cell;
+}
 .header-top .top-mail {
     font-size: 14px;
     line-height: 36px;
     color: #66aaf5;
     text-decoration: none;
+    display: table-cell;
 }
 .top-time .time-title {
     font-size: 15px;
     line-height: 30px;
     color: #ffffff;
+    display: table-cell;
 }
 .top-time .time-hour {
     font-size: 15px;
     line-height: 30px;
     color: #66aaf5;
+    display: table-cell;
 }
 .top-time .time-date {
     font-size: 15px;
     line-height: 30px;
     color: #9ca2a8;
+    display: table-cell;
 }
 .top-reg a {
     font-size: 15px;
     line-height: 30px;
     color: #ffffff;
     text-decoration: none;
+    display: table-cell;
 }
-.header-bottom .menu li {
+.header-bottom {
+}
+.header-bottom .logo {
+    padding-top: 25px;
+}
+.header-bottom .menu li a {
     font-size: 15px;
     line-height: 30px;
     color: #263441;
     text-decoration: none;
+    text-transform: uppercase;
+}
+.menu  li a .active{
+    color: #589ae3;
+}
+.menu li {
+    display: inline-block;
+    padding-left: 40px;
+}
+.menu {
+    text-align: right;
+}
+.banner {
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.banner-caption {
+    display: block;
+    text-align: center;
+}
+.banner-caption span {
+    display: block;
+    text-align: center;
 }
 .banner-caption span:nth-child(1) {
     font-size: 30px;
@@ -57,6 +108,7 @@ ul {
     color: #ffffff;
     text-transform: uppercase;
 }
+
 .banner-caption span:nth-child(2) {
     font-size: 70px;
     line-height: 90px;
@@ -78,54 +130,69 @@ ul {
     text-decoration: none;
     text-align: center;
 }
-.ct {
+.banner-caption p {
+}
+.about {
+    width: 100%;
+    float: left;
+    padding: 0 65px;
+    text-align: left;
+}
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.about-info .ct {
     font-size: 17px;
     line-height: 70px;
     color: #263441;
 }
-.cti {
+.about-info .cti {
     font-size: 50px;
     line-height: 70px;
     color: #263441;
     font-weight: bold;
     text-transform: uppercase;
 }
-.content-text p {
+.about-info .content-text p {
     font-size: 17px;
     line-height: 30px;
     color: #263441;
 }
-.content-text p span {
+.about-info .content-text p span {
     font-size: 17px;
     line-height: 30px;
     color: #263441;
     font-weight: 500;
 }
-.content-text li {
+.about-info .content-text li {
     font-size: 17px;
     line-height: 30px;
     color: #263441;
 }
-.info-certificate span {
+.about-info .info-certificate span {
     font-size: 15px;
     line-height: 24px;
     color: #589ae3;
 }
-.info-certificate p {
+.about-info .info-certificate p {
     font-size: 15px;
     line-height: 24px;
     color: #263441;
 }
 .our-mission .img {
-    display: inline-block;
+    height: 810px;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center top;
+    background-size: cover;
 }
 .dt {
     font-size: 17px;
     line-height: 70px;
     color: #ffffff;
     text-transform: uppercase;
+    display: inline-block;
 }
 .dtt {
     font-size: 50px;
@@ -144,6 +211,21 @@ ul {
     line-height: 24px;
     color: #ffffff;
 }
+.statistics .img {
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.statistics-item .item-list span {
+    display: block;
+    text-align: center;
+}
+.item-list {
+    width: 33.3333%;
+    float: left;
+    padding: 0 15px;
+}
 .item-list span:nth-child(1) {
     font-size: 17px;
     line-height: 100px;
@@ -155,6 +237,11 @@ ul {
     line-height: 100px;
     color: #ffffff;
     font-weight: 700;
+}
+.our-advant {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
 }
 .info-list span {
     font-size: 17px;
@@ -168,6 +255,16 @@ ul {
     line-height: 36px;
     color: #263441;
 }
+.offers-invest .caption span {
+    display: block;
+    text-align: center;
+}
+.offers-wrapper .wrapper-list {
+    width: 33.3333%;
+    float: left;
+    padding: 0 15px;
+}
+.wrapper-list
 .offers-invest .cap {
     font-size: 17px;
     line-height: 70px;
@@ -180,6 +277,9 @@ ul {
     color: #263441;
     font-weight: 700;
     text-transform: uppercase;
+}
+.wrapper-list .list-description span {
+    display: block;
 }
 .list-tarif1 span {
     font-size: 36px;
@@ -262,6 +362,12 @@ ul {
     line-height: 30px;
     color: #89c1ff;
 }
+.affilate-prog .img {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
 .prog-caption span:nth-child(1) {
     font-size: 17px;
     line-height: 90px;
@@ -303,6 +409,15 @@ ul {
     line-height: 30px;
     color: #589ae3;
 }
+.news .news-caption span {
+    display: block;
+    text-align: center;
+}
+.wrapper-new {
+    width: 33.3333%;
+    float: left;
+    padding: 0 15px;
+}
 .news-caption .nc {
     font-size: 17px;
     line-height: 70px;
@@ -333,7 +448,23 @@ ul {
     line-height: 24px;
     color: #778b9d;
 }
-.payments {
+.payments .wrapper-system {
+    display: inline-block;
+    padding-left: 110px;
+    text-align: center;
+}
+footer {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+    background-color: #263441;
+}
+.table {
+    display: table;
+}
+.footer-left {
+    width: 37%;
+    display: table-cell;
 }
 .footer-left .left-text span {
     font-size: 15px;
@@ -346,6 +477,10 @@ ul {
     font-size: 15px;
     line-height: 33px;
     color: #ffffff;
+}
+.footer-right {
+    width: 37%;
+    display: table-cell;
 }
 .footer-right .right-certificate span {
     font-size: 15px;
@@ -390,4 +525,52 @@ ul {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*контакты*/
+.contacts-banner span {
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+}
+.contacts-info .info-item span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+    font-weight: 700;
+}
+.contacts-info .info-item p {
+     font-size: 17px;
+     line-height: 36px;
+     color: #263441;
+ }
+.contacts-info .info-item a {
+    font-size: 17px;
+    line-height: 36px;
+    color: #589ae3;
+}
+.contacts-map {}
+.contacts-form .form-caption span:nth-child(1) {
+    font-size: 17px;
+    line-height: 70px;
+    color: #263441;
+    text-transform: uppercase;
+}
+.contacts-form .form-caption span:nth-child(2) {
+    font-size: 36px;
+    line-height: 50px;
+    color: #263441;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contacts-form .form-block-item label {
+    font-size: 15px;
+    line-height: 100px;
+    color: #263441;
+    font-weight: 500;
+}
+.form-button button {
+    font-size: 17px;
+    line-height: 30px;
+    color: #589ae3;
+    font-weight: 700;
+    text-transform: uppercase;
+}
