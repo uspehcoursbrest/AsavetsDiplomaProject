@@ -138,7 +138,6 @@ ul {
 }
 .about {
     width: 100%;
-    float: left;
     padding: 0 65px;
     text-align: left;
 }
@@ -185,7 +184,7 @@ ul {
     line-height: 24px;
     color: #263441;
 }
-.our-mission .img {
+.our-mission {
     height: 810px;
     background-repeat: no-repeat;
     background-position: center top;
@@ -215,7 +214,7 @@ ul {
     line-height: 24px;
     color: #ffffff;
 }
-.statistics .img {
+.statistics {
     height: 320px;
     background-repeat: no-repeat;
     background-position: center top;
@@ -243,8 +242,6 @@ ul {
     font-weight: 700;
 }
 .our-advant {
-    width: 100%;
-    float: left;
     padding: 0 15px;
 }
 .info-list span {
@@ -258,6 +255,10 @@ ul {
     font-size: 17px;
     line-height: 36px;
     color: #263441;
+}
+.offers-invest {
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 .offers-invest .caption span {
     display: block;
@@ -366,7 +367,7 @@ ul {
     line-height: 30px;
     color: #89c1ff;
 }
-.affilate-prog .img {
+.affilate-prog {
     height: 400px;
     background-repeat: no-repeat;
     background-position: center top;
