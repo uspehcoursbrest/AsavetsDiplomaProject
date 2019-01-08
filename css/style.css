@@ -126,6 +126,8 @@ ul {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
+    padding: 15px 20px;
+    background-color: #589ae3;
 }
 .banner-caption a {
     font-size: 17px;
@@ -133,18 +135,53 @@ ul {
     color: #ffffff;
     text-decoration: none;
     text-align: center;
+    border: solid;
+    padding: 15px 25px;
 }
 .banner-caption p {
 }
 .about {
-    width: 100%;
     padding: 0 65px;
     text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.about-picture {
+    /*display: block;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    width: 710px;
+    border: 1px solid #f4f6f7;
+    padding: 25px;
+}
+.about-picture img {
+    width: 100%;
 }
 .clear::after {
     content: '';
     display: block;
     clear: both;
+}
+.about-info {
+    padding-left: 70px;
+    /*position: absolute;*/
+    /*display: block;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*width: calc(100% - 710px);*/
+}
+.about-info .info-content {
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+
+}
+.about-info .info-certificate {
+    /*display: inline-block;*/
+
 }
 .about-info .ct {
     font-size: 17px;
