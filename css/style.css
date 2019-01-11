@@ -211,10 +211,6 @@ ul {
 
 }
 .about-picture {
-    /*display: flex;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*top: 0;*/
     width: 710px;
     border: 3px solid #f4f6f7;
     padding: 25px;
@@ -246,6 +242,7 @@ ul {
 }
 .about-info .info-certificate {
     /*display: inline-block;*/
+    /*padding-left: 70px;*/
 
 }
 .about-info .ct {
@@ -281,10 +278,14 @@ ul {
     line-height: 24px;
     color: #589ae3;
 }
+/*.about-info .info-certificate span:nth-child(1) {*/
+    /*padding-top: 30px;*/
+/*}*/
 .about-info .info-certificate {
     width: 315px;
     padding: 20px 20px 200px 20px;
     border: 3px solid #f4f6f7;
+    margin-left: 70px;
 }
 .about-info .info-certificate p {
     font-size: 15px;
@@ -347,6 +348,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    padding-top: 70px;
 }
 .statistics-item .item-list span {
     display: block;
@@ -371,6 +373,31 @@ ul {
 }
 .our-advant {
     padding: 0 15px;
+    display: flex;
+}
+.our-advant .about-picture img {
+    width: calc( 100% - 960px);
+    /*float: left;*/
+}
+.our-advant .advant-info .info-list {
+    /*float: left;*/
+    /*width: ;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*position: relative;*/
+
+
+}
+.advant-info .info-list .list {
+    text-align: center;
+    border: 1px solid #e0e8ed;
+}
+.our-advant .advant-info {
+
+}
+.info-list .list img {
+    display: block;
+    /*position: absolute;*/
 }
 .info-list span {
     font-size: 17px;
@@ -378,26 +405,43 @@ ul {
     color: #263441;
     font-weight: 700;
     text-transform: uppercase;
+    display: block;
 }
 .info-list p {
     font-size: 17px;
     line-height: 36px;
     color: #263441;
+    display: block;
 }
+
+
 .offers-invest {
     padding-bottom: 100px;
     padding-top: 100px;
+    /*display: inline-block;*/
+    height: 1000px;
+}
+.offers-invest .caption {
+    padding-bottom: 120px;
 }
 .offers-invest .caption span {
     display: block;
     text-align: center;
+
 }
 .offers-wrapper .wrapper-list {
     width: 33.3333%;
     float: left;
     padding: 0 15px;
 }
-.wrapper-list
+.wrapper-list {
+
+
+}
+
+.offers-invest {
+
+}
 .offers-invest .cap {
     font-size: 17px;
     line-height: 70px;
@@ -419,18 +463,25 @@ ul {
     line-height: 54px;
     color: #ffffff;
     text-transform: uppercase;
+    background-color: #2173ce;
 }
 .list-tarif2 span {
     font-size: 36px;
     line-height: 54px;
     color: #ffffff;
     text-transform: uppercase;
+    background-color: #589ae3;
 }
 .list-tarif3 span {
     font-size: 36px;
     line-height: 54px;
     color: #ffffff;
     text-transform: uppercase;
+    background-color: #89c1ff;
+    width: 385px;
+}
+.wrapper-list .tarif-per {
+    height: 270px;
 }
 .list-tarif1 .tarif-per span:nth-child(1) {
     font-size: 70px;
@@ -525,6 +576,11 @@ ul {
     color: #61acff;
     font-weight: 700;
 }
+
+
+.reviews {
+    height: 670px;
+}
 .feedback-text p {
     font-size: 17px;
     line-height: 30px;
@@ -541,6 +597,9 @@ ul {
     font-size: 17px;
     line-height: 30px;
     color: #589ae3;
+}
+.news {
+    height: 950px;
 }
 .news .news-caption span {
     display: block;
@@ -580,6 +639,9 @@ ul {
     font-size: 15px;
     line-height: 24px;
     color: #778b9d;
+}
+.payments {
+    height: 160px;
 }
 .payments .wrapper-system {
     display: inline-block;
