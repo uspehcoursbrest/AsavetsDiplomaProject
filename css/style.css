@@ -22,44 +22,51 @@ ul {
     padding: 0 15px;
 }
 .header-top .container {
-    display: table;
-    text-align: right;
-    height: 50px;
-    padding: 15px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-top .top-time{
+    margin-right: 75px;
 
-}
-.header-top .container .in {
-    position: relative;
-}
-.in {
-    display: table-cell;
 }
 .container .in icon[class="icon"] {
     display: block;
     position: absolute;
 }
 .header-top .in a:nth-child(1) img {
-    padding-right: 40px;
+    padding-right: 33px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .header-top .in a:nth-child(2) {
     font-size: 14px;
-    line-height: 36px;
     color: #66aaf5;
 }
 .header-top .top-mail a:nth-child(2) img {
-    padding-right: 15px;
+    padding-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .header-top {
     background-color: #263441;
+    padding: 10px 0px;
 }
 .header-top .top-mail {
     font-size: 14px;
-    line-height: 36px;
     color: #66aaf5;
     text-decoration: none;
     font-weight: 300;
+    margin-right: 50px;
+}
+.header-top .top-mail a{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 18px;
 }
 .top-time .time-title {
+    display: inline-block;
+    vertical-align: middle;
     font-size: 15px;
     line-height: 30px;
     color: #ffffff;
@@ -67,9 +74,13 @@ ul {
     font-weight: 300;
 }
 .top-time .time-title img {
+    display: inline-block;
+    vertical-align: middle;
     padding-right: 15px;
 }
 .top-time .time-hour {
+    display: inline-block;
+    vertical-align: middle;
     font-size: 15px;
     line-height: 30px;
     color: #66aaf5;
@@ -77,6 +88,8 @@ ul {
     font-weight: 700;
 }
 .top-time .time-date {
+    display: inline-block;
+    vertical-align: middle;
     font-size: 15px;
     line-height: 30px;
     color: #9ca2a8;
@@ -90,9 +103,13 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 300;
+    display: inline-block;
+    vertical-align: middle;
 }
 .header-top .top-reg a:nth-child(1) img {
     padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .header-top .top-reg a:nth-child(2) {
     font-size: 15px;
@@ -107,22 +124,28 @@ ul {
 }
 .header-bottom {
     height: 90px;
-
 }
 .header-bottom .logo {
     float: left;
-    /*padding-right: 95px;*/
 }
 .logo {
-    padding: 15px 15px;
+    padding: 15px 0px;
 }
 .header-bottom .menu li a {
+    display: block;
+    padding: 30px 0px;
     font-size: 15px;
     line-height: 30px;
     color: #263441;
     text-decoration: none;
     text-transform: uppercase;
-
+}
+.header-bottom .menu li a.active,
+.header-bottom .menu li a:hover{
+    -webkit-box-shadow: inset 0px -3px 0px 0px #589ae3;
+    -moz-box-shadow: inset 0px -3px 0px 0px #589ae3;
+    box-shadow: inset 0px -3px 0px 0px #589ae3;
+    color: #589ae3;
 }
 .menu  li a .active{
     color: #589ae3;
@@ -130,21 +153,18 @@ ul {
 .menu li {
     display: inline-block;
     padding-left: 40px;
-
+    height: 100%;
 }
 .menu {
-    text-align: right;
-    float: left;
-    /*padding: 40px 40px;*/
-
+    float: right;
+    height: 100%;
 }
 .banner {
-    height: 660px;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 190px;
+    padding-bottom: 165px;
 
 }
 .banner-caption {
@@ -158,7 +178,8 @@ ul {
 }
 .banner-caption span:nth-child(1) {
     font-size: 30px;
-    line-height: 90px;
+    line-height: 34px;
+    letter-spacing: 1px;
     color: #ffffff;
     text-transform: uppercase;
     margin-left: auto;
@@ -167,51 +188,54 @@ ul {
 
 .banner-caption span:nth-child(2) {
     font-size: 70px;
-    line-height: 90px;
+    line-height: 74px;
+    letter-spacing: 1.6px;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .banner-caption span:nth-child(3) {
+    display: inline-block;
+    padding: 8px 35px;
     font-size: 70px;
-    line-height: 90px;
+    line-height: 74px;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     /*padding: 15px 20px;*/
     background-color: #589ae3;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    margin-top: 13px;
 }
 .banner-caption a {
     font-size: 17px;
-    line-height:30px;
+    line-height: 21px;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    border: solid;
-    padding: 15px 25px;
+    border: 3px solid #fff;
+    padding: 12px 25px;
     text-transform: uppercase;
 
 }
 .banner-caption p {
-    padding-bottom: 60px;
+    padding-bottom: 55px;
 }
 .about {
-    padding: 0 65px;
+    padding: 0 135px;
     text-align: left;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 100px;
-    padding-bottom: 110px;
+    padding-top: 105px;
+    padding-bottom: 105px;
 
 }
 .about-picture {
-    width: 710px;
+    width: 715px;
     border: 3px solid #f4f6f7;
     padding: 25px;
 
@@ -226,17 +250,12 @@ ul {
 }
 .about-info {
     display: flex;
-    padding-left: 70px;
-    /*position: absolute;*/
-    /*display: block;*/
-    /*right: 0;*/
-    /*top: 0;*/
-    /*width: calc(100% - 710px);*/
+    padding-left: 75px;
 }
 .about-info .info-content {
     display: block;
     text-align: left;
-    width: 550px;
+    width: 570px;
     /*vertical-align: top;*/
 
 }
@@ -246,21 +265,45 @@ ul {
 
 }
 .about-info .ct {
+    display: block;
     font-size: 17px;
-    line-height: 70px;
+    line-height: 21px;
     color: #263441;
 }
 .about-info .cti {
+    display: block;
+    position: relative;
+    margin-top: 12px;
+    padding-bottom: 45px;
     font-size: 50px;
-    line-height: 70px;
+    line-height: 54px;
     color: #263441;
     font-weight: bold;
     text-transform: uppercase;
+}
+.about-info .cti:before{
+    content: '';
+    display: block;
+    width: 55px;
+    height: 4px;
+    background-color: #0069b4;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.about-info .content-text{
+    margin-top: 45px;
+}
+.about-info .content-text ul{
+    margin-top: 30px;
 }
 .about-info .content-text p {
     font-size: 17px;
     line-height: 30px;
     color: #263441;
+}
+.about-info .content-text ul + p{
+    margin-top: 30px;
 }
 .about-info .content-text p span {
     font-size: 17px;
@@ -272,31 +315,58 @@ ul {
     font-size: 17px;
     line-height: 30px;
     color: #263441;
+    padding-left: 23px;
+    position: relative;
+}
+.about-info .content-text li:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #589ae3;
+    top: 50%;
+    margin-top: -3px;
+    left: 0px;
 }
 .about-info .info-certificate span {
     font-size: 15px;
     line-height: 24px;
     color: #589ae3;
+    display: block;
+    text-transform: uppercase;
 }
 /*.about-info .info-certificate span:nth-child(1) {*/
     /*padding-top: 30px;*/
 /*}*/
 .about-info .info-certificate {
     width: 315px;
-    padding: 20px 20px 200px 20px;
+    padding: 25px 25px 25px 25px;
     border: 3px solid #f4f6f7;
     margin-left: 70px;
+}
+.about-info .info-certificate div{
+    padding-left: 10px;
+}
+.about-info .info-certificate div:nth-of-type(1) {
+    margin-top: 25px;
+}
+.about-info .info-certificate div:nth-of-type(2) {
+    margin-top: 20px;
 }
 .about-info .info-certificate p {
     font-size: 15px;
     line-height: 24px;
     color: #263441;
 }
-.our-mission {
-    height: 810px;
+.ourmission-wrapper{
     background-repeat: no-repeat;
-    background-position: center top;
+    -webkit-background-size: cover;
     background-size: cover;
+    background-position: center bottom;
+    padding-top: 100px;
+}
+.our-mission {
     display: block;
     text-align: left;
 
@@ -311,32 +381,73 @@ ul {
 
 }
 .description .description-title {
-    padding-bottom: 110px;
+    padding-bottom: 45px;
 }
 
 
 .dt {
     font-size: 17px;
-    line-height: 70px;
+    line-height: 21px;
     color: #ffffff;
     text-transform: uppercase;
     /*display: inline-block;*/
 }
 .dtt {
     font-size: 50px;
-    line-height: 70px;
+    line-height: 54px;
     color: #ffffff;
     font-weight: 700;
     text-transform: uppercase;
+    margin-top: 15px;
+    position: relative;
+    padding-bottom: 53px;
 }
+.dtt:before{
+    content: '';
+    display: block;
+    width: 55px;
+    height: 6px;
+    background-color: #0069b4;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
 .description-text p {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
-    padding-bottom: 65px;
+    padding-bottom: 30px;
 }
 .description-list .list-item {
     border: 1px solid #dfe5e8;
+    padding: 15px 15px 15px 95px;
+    position: relative;
+}
+.description-list .list-item:before {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: #0069b4;
+    color: #fff;
+    font-size: 20px;
+    line-height: 56px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+    left: 10px;
+}
+.description-list .list-item:nth-of-type(1):before{
+    content: '1';
+}
+.description-list .list-item:nth-of-type(2):before{
+    content: '2';
+}
+.description-list .list-item:nth-of-type(3):before{
+    content: '3';
 }
 .description-list .list-item p {
     font-size: 15px;
@@ -344,11 +455,13 @@ ul {
     color: #ffffff;
 }
 .statistics {
-    height: 320px;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    padding-top: 70px;
+    margin-top: 100px;
+    padding-top: 110px;
+    padding-bottom: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.statistics-item {
+    margin: 0 -15px;
 }
 .statistics-item .item-list span {
     display: block;
@@ -358,16 +471,33 @@ ul {
     width: 33.3333%;
     float: left;
     padding: 0 15px;
+    text-align: center;
 }
 .item-list span:nth-child(1) {
+    display: inline-block;
+    padding-bottom: 25px;
+    position: relative;
     font-size: 17px;
-    line-height: 100px;
+    line-height: 21px;
     color: #ffffff;
     text-transform: uppercase;
 }
+.item-list span:nth-child(1):before{
+    content: '';
+    display: block;
+    width: 55px;
+    height: 6px;
+    background-color: #0069b4;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -27px;
+}
 .item-list span:nth-child(2) {
+    display: block;
+    margin-top: 25px;
     font-size: 50px;
-    line-height: 100px;
+    line-height: 54px;
     color: #ffffff;
     font-weight: 700;
 }
