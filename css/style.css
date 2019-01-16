@@ -502,32 +502,38 @@ ul {
     font-weight: 700;
 }
 .our-advant {
-    padding: 0 15px;
     display: flex;
 }
-.our-advant .about-picture img {
-    width: calc( 100% - 960px);
-    /*float: left;*/
-}
-.our-advant .advant-info .info-list {
-    /*float: left;*/
-    /*width: ;*/
-    display: flex;
-    flex-wrap: wrap;
-    /*position: relative;*/
-
-
-}
-.advant-info .info-list .list {
-    text-align: center;
-    border: 1px solid #e0e8ed;
+.our-advant .advant-picture {
+    width: calc(100% - 960px);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 655px;
 }
 .our-advant .advant-info {
-
+    width: 960px;
+}
+.our-advant .advant-info .info-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 100%;
+    background-color: #f4f6f7;
+}
+.advant-info .info-list .list {
+    width: 50%;
+    text-align: center;
+    border: 1px solid #e0e8ed;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .info-list .list img {
     display: block;
-    /*position: absolute;*/
+    margin: 0 auto;
+    padding-bottom: 45px;
 }
 .info-list span {
     font-size: 17px;
@@ -593,6 +599,9 @@ ul {
     line-height: 54px;
     color: #ffffff;
     text-transform: uppercase;
+
+}
+.list-tarif1 {
     background-color: #2173ce;
 }
 .list-tarif2 span {
@@ -600,6 +609,8 @@ ul {
     line-height: 54px;
     color: #ffffff;
     text-transform: uppercase;
+}
+.list-tarif2 {
     background-color: #589ae3;
 }
 .list-tarif3 span {
@@ -611,11 +622,11 @@ ul {
     width: 385px;
 }
 .wrapper-list .tarif-per {
-    height: 270px;
+    /*height: 270px;*/
 }
 .list-tarif1 .tarif-per span:nth-child(1) {
     font-size: 70px;
-    line-height: 30px;
+    line-height: 70px;
     color: #ffffff;
     font-weight: 700;
 }
@@ -634,9 +645,12 @@ ul {
     line-height: 30px;
     color: #2173ce;
 }
+.list-tarif2 {
+    background-color: #;
+}
 .list-tarif2 .tarif-per span:nth-child(1) {
     font-size: 70px;
-    line-height: 30px;
+    /*line-height: 30px;*/
     color: #ffffff;
     font-weight: 700;
 }
