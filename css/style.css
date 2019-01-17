@@ -256,13 +256,6 @@ ul {
     display: block;
     text-align: left;
     width: 570px;
-    /*vertical-align: top;*/
-
-}
-.about-info .info-certificate {
-    /*display: inline-block;*/
-    /*padding-left: 70px;*/
-
 }
 .about-info .ct {
     display: block;
@@ -558,7 +551,7 @@ ul {
     height: 1000px;
 }
 .offers-invest .caption {
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
 .offers-invest .caption span {
     display: block;
@@ -568,7 +561,6 @@ ul {
 .offers-wrapper .wrapper-list {
     width: 33.3333%;
     float: left;
-    padding: 0 15px;
 }
 .wrapper-list {
 
@@ -580,53 +572,52 @@ ul {
 }
 .offers-invest .cap {
     font-size: 17px;
-    line-height: 70px;
+    /*line-height: 70px;*/
     color: #263441;
     text-transform: uppercase;
 }
 .offers-invest .capt {
     font-size: 36px;
-    line-height: 50px;
+    line-height: 70px;
     color: #263441;
     font-weight: 700;
     text-transform: uppercase;
 }
+.offers-invest .capt:before {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 4px;
+    background-color: #589ae3;
+    position: absolute;
+    /*bottom: 0px;*/
+    left: 50%;
+
+}
+.offers-wrapper .wrapper-list {
+    height: 620px;
+}
+.wrapper-list .wrapper-description {
+    border: 1px solid #dfe5e8;
+    padding-left: 45px;
+    padding-right: 45px;
+}
 .wrapper-list .list-description span {
     display: block;
-}
-.list-tarif1 span {
-    font-size: 36px;
-    line-height: 54px;
-    color: #ffffff;
-    text-transform: uppercase;
-
+    line-height: 50px;
 }
 .list-tarif1 {
     background-color: #2173ce;
+    height: 270px;
 }
-.list-tarif2 span {
+.list-tarif1 span {
     font-size: 36px;
-    line-height: 54px;
     color: #ffffff;
     text-transform: uppercase;
-}
-.list-tarif2 {
-    background-color: #589ae3;
-}
-.list-tarif3 span {
-    font-size: 36px;
-    line-height: 54px;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #89c1ff;
-    width: 385px;
-}
-.wrapper-list .tarif-per {
-    /*height: 270px;*/
+    padding-left: 50px;
 }
 .list-tarif1 .tarif-per span:nth-child(1) {
     font-size: 70px;
-    line-height: 70px;
     color: #ffffff;
     font-weight: 700;
 }
@@ -640,17 +631,27 @@ ul {
     line-height: 50px;
     color: #263441;
 }
-.list-tarif1 .list-button {
-    font-size: 17px;
-    line-height: 30px;
+.wrapper-list .tarif-per {
+    float: right;
+    display: grid;
+    padding: 45px;
+}
+.wrapper-list .list-tarif1 .list-button button {
     color: #2173ce;
+    border: 3px solid #2173ce;
 }
 .list-tarif2 {
-    background-color: #;
+    background-color: #589ae3;
+    height: 270px;
+}
+.list-tarif2 span {
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 50px;
 }
 .list-tarif2 .tarif-per span:nth-child(1) {
     font-size: 70px;
-    /*line-height: 30px;*/
     color: #ffffff;
     font-weight: 700;
 }
@@ -664,14 +665,24 @@ ul {
     line-height: 50px;
     color: #263441;
 }
-.list-tarif2 .list-button {
+.list-tarif2 .list-button button {
     font-size: 17px;
     line-height: 30px;
     color: #589ae3;
 }
+.list-tarif3 {
+    background-color: #89c1ff;
+    height: 270px;
+}
+.list-tarif3 span {
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #89c1ff;
+    padding-left: 50px;
+}
 .list-tarif3 .tarif-per span:nth-child(1) {
     font-size: 70px;
-    line-height: 30px;
     color: #ffffff;
     font-weight: 700;
 }
@@ -690,29 +701,56 @@ ul {
     line-height: 30px;
     color: #89c1ff;
 }
+.wrapper-description .list-button button {
+    font-size: 17px;
+
+    text-decoration: none;
+    text-align: center;
+    /*border: 3px solid #2173ce;*/
+    padding: 13px 28px;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.wrapper-description .list-description span:nth-child(even) {
+    background-color: #f4f6f7;
+}
 .affilate-prog {
     height: 400px;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 }
+.prog-wrapper {
+    display: flex;
+}
+.prog-caption {
+    padding-top: 110px;
+}
 .prog-caption span:nth-child(1) {
     font-size: 17px;
-    line-height: 90px;
     color: #ffffff;
     text-transform: uppercase;
 }
 .prog-caption span:nth-child(2) {
     font-size: 70px;
-    line-height: 70px;
     color: #ffffff;
     font-weight: 700;
     text-transform: uppercase;
+    display: block;
+    line-height: 100px;
+}
+.prog-description {
+    margin-left: 225px;
 }
 .description-info p {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
+    padding-top: 110px;
+    padding-bottom: 60px;
 }
 .description-rates span {
     font-size: 70px;
@@ -720,8 +758,6 @@ ul {
     color: #61acff;
     font-weight: 700;
 }
-
-
 .reviews {
     height: 670px;
 }
