@@ -548,10 +548,9 @@ ul {
     padding-bottom: 100px;
     padding-top: 100px;
     /*display: inline-block;*/
-    height: 1000px;
 }
 .offers-invest .caption {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 .offers-invest .caption span {
     display: block;
@@ -582,6 +581,8 @@ ul {
     color: #263441;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
+    padding-bottom: 30px;
 }
 .offers-invest .capt:before {
     content: '';
@@ -590,8 +591,9 @@ ul {
     height: 4px;
     background-color: #589ae3;
     position: absolute;
-    /*bottom: 0px;*/
+    bottom: 0px;
     left: 50%;
+    margin-left: -27px;
 
 }
 .offers-wrapper .wrapper-list {
@@ -599,12 +601,11 @@ ul {
 }
 .wrapper-list .wrapper-description {
     border: 1px solid #dfe5e8;
-    padding-left: 45px;
-    padding-right: 45px;
 }
 .wrapper-list .list-description span {
     display: block;
     line-height: 50px;
+    padding-left: 45px;
 }
 .list-tarif1 {
     background-color: #2173ce;
@@ -614,7 +615,7 @@ ul {
     font-size: 36px;
     color: #ffffff;
     text-transform: uppercase;
-    padding-left: 50px;
+    padding-left: 45px;
 }
 .list-tarif1 .tarif-per span:nth-child(1) {
     font-size: 70px;
@@ -634,11 +635,13 @@ ul {
 .wrapper-list .tarif-per {
     float: right;
     display: grid;
-    padding: 45px;
+    padding: 40px 50px 45px 0px;
 }
-.wrapper-list .list-tarif1 .list-button button {
+.wrapper-list:nth-child(1) .list-button button {
     color: #2173ce;
     border: 3px solid #2173ce;
+    background-color: transparent;
+    margin-left: 45px;
 }
 .list-tarif2 {
     background-color: #589ae3;
@@ -648,7 +651,7 @@ ul {
     font-size: 36px;
     color: #ffffff;
     text-transform: uppercase;
-    padding-left: 50px;
+    padding-left: 45px;
 }
 .list-tarif2 .tarif-per span:nth-child(1) {
     font-size: 70px;
@@ -670,6 +673,12 @@ ul {
     line-height: 30px;
     color: #589ae3;
 }
+.wrapper-list:nth-child(2) .list-button button {
+    color: #589ae3;
+    border: 3px solid #589ae3;
+    background-color: transparent;
+    margin-left: 45px;
+}
 .list-tarif3 {
     background-color: #89c1ff;
     height: 270px;
@@ -679,7 +688,7 @@ ul {
     color: #ffffff;
     text-transform: uppercase;
     background-color: #89c1ff;
-    padding-left: 50px;
+    padding-left: 45px;
 }
 .list-tarif3 .tarif-per span:nth-child(1) {
     font-size: 70px;
@@ -700,6 +709,13 @@ ul {
     font-size: 17px;
     line-height: 30px;
     color: #89c1ff;
+
+}
+.wrapper-list:nth-child(3) .list-button button {
+    color: #89c1ff;
+    border: 3px solid #89c1ff;
+    background-color: transparent;
+    margin-left: 45px;
 }
 .wrapper-description .list-button button {
     font-size: 17px;
@@ -718,13 +734,13 @@ ul {
     background-color: #f4f6f7;
 }
 .affilate-prog {
-    height: 400px;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 }
 .prog-wrapper {
     display: flex;
+    padding-bottom: 80px;
 }
 .prog-caption {
     padding-top: 110px;
@@ -759,7 +775,8 @@ ul {
     font-weight: 700;
 }
 .reviews {
-    height: 670px;
+    padding-bottom: 150px;
+
 }
 .reviews-wrapper {
     display: flex;
@@ -802,7 +819,7 @@ ul {
 }
 .news {
     background-color: #f7f7f7;
-    height: 950px;
+    padding-bottom: 88px;
 }
 .news .news-caption span {
     display: block;
@@ -825,7 +842,7 @@ ul {
     line-height: 70px;
     color: #263441;
     text-transform: uppercase;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .news-caption .nca {
     font-size: 36px;
@@ -833,6 +850,7 @@ ul {
     color: #263441;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
 
 }
 .news-caption .nca:before {
@@ -842,18 +860,31 @@ ul {
     height: 4px;
     background-color: #589ae3;
     position: absolute;
-    /*bottom: 0px;*/
-    left: 0;
+    bottom: -55px;
+    left: 50%;
+    margin-left: -30px;
 }
 .news-wrapper {
     padding-top: 130px;
+    margin: 0 -20px;
 }
 .wrapper-new img {
+    display: block;
+    width: 100%;
 }
 .new-info span {
     font-size: 15px;
     line-height: 22px;
     color: #589ae3;
+    position: relative;
+    padding-left: 30px;
+    display: inline-block;
+}
+.new-info img {
+    position: absolute;
+    width: 20px;
+    left: 0;
+    top: 0;
 }
 .new-info .caption {
     font-size: 17px;
@@ -861,26 +892,28 @@ ul {
     color: #3c3950;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .new-info .text {
     font-size: 15px;
     line-height: 24px;
     color: #778b9d;
-    padding-top: 30px;
+    padding-top: 25px;
     padding-bottom: 50px;
     width: 280px;
 }
 .payments {
-    height: 160px;
+    padding-bottom: 55px;
+    padding-top: 60px;
+
 }
 .payments-wrapper {
     display: flex;
-    width: 25%;
+    justify-content: space-around;
 }
 .payments .wrapper-system {
-    padding-left: 110px;
-    padding-top: 70px;
+
+
 }
 .payments .wrapper-system img {
 }
@@ -896,6 +929,10 @@ footer {
     padding-bottom: 100px;
 
 }
+.footer-left .left-logo img {
+    padding-bottom: 15px;
+}
+
 .footer-left {
     width: 35%;
     /*padding-right: 100px;*/
@@ -917,6 +954,7 @@ footer {
 .footer-medium {
     width: 50%;
     padding-left: 100px;
+    display: inline-block;
     /*display: flex;*/
 }
 .footer-medium .right-certificate img {
@@ -936,9 +974,13 @@ footer {
     font-size: 15px;
     line-height: 33px;
     color: #ffffff;
+    padding-bottom: 25px;
 }
 .footer-medium .right-info {
     padding-left: 160px;
+}
+.list-info {
+    padding-bottom: 25px;
 }
 .list-info .info-phone {
     font-size: 15px;
