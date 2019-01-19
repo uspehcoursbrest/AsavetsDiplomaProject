@@ -21,6 +21,13 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+a, button {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
 .header-top .container {
     display: flex;
     justify-content: flex-end;
@@ -42,6 +49,11 @@ ul {
 .header-top .in a:nth-child(2) {
     font-size: 14px;
     color: #66aaf5;
+
+}
+.header-top .in a:nth-child(2):hover {
+    text-decoration-color: transparent;
+    transition: all 0.3s;
 }
 .header-top .top-mail a:nth-child(2) img {
     padding-right: 20px;
@@ -105,6 +117,10 @@ ul {
     font-weight: 300;
     display: inline-block;
     vertical-align: middle;
+
+}
+.top-reg a:nth-child(1):hover {
+    opacity: 0.7;
 }
 .header-top .top-reg a:nth-child(1) img {
     padding-right: 15px;
@@ -119,6 +135,9 @@ ul {
     text-transform: uppercase;
     font-weight: 300;
 }
+.header-top .top-reg a:nth-child(2):hover {
+    opacity: 0.7;
+}
 .header-bottom {
     /*display: flex;*/
 }
@@ -130,6 +149,22 @@ ul {
 }
 .logo {
     padding: 15px 0px;
+}
+.invis-link {
+    position: relative;
+    z-index: 1;
+}
+.invis-link > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
 }
 .header-bottom .menu li a {
     display: block;
@@ -506,7 +541,7 @@ ul {
     height: 655px;
 }
 .our-advant .advant-info {
-    width: 960px;
+    width: 1075px;
 }
 .our-advant .advant-info .info-list {
     display: flex;
@@ -624,8 +659,8 @@ ul {
 }
 .list-tarif1 .tarif-per span:nth-child(2) {
     font-size: 17px;
-    line-height: 30px;
     color: #ffffff;
+    padding-left: 125px;
 }
 .list-tarif1 .list-description span {
     font-size: 15px;
@@ -635,13 +670,21 @@ ul {
 .wrapper-list .tarif-per {
     float: right;
     display: grid;
-    padding: 40px 50px 45px 0px;
+    padding: 40px 50px 60px 0px;
 }
 .wrapper-list:nth-child(1) .list-button button {
     color: #2173ce;
     border: 3px solid #2173ce;
     background-color: transparent;
     margin-left: 45px;
+}
+.list-button button:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .list-tarif2 {
     background-color: #589ae3;
@@ -660,8 +703,8 @@ ul {
 }
 .list-tarif2 .tarif-per span:nth-child(2) {
     font-size: 17px;
-    line-height: 30px;
     color: #ffffff;
+    padding-left: 130px;
 }
 .list-tarif2 .list-description span {
     font-size: 15px;
@@ -697,8 +740,8 @@ ul {
 }
 .list-tarif3 .tarif-per span:nth-child(2) {
     font-size: 17px;
-    line-height: 30px;
     color: #ffffff;
+    padding-left: 110px;
 }
 .list-tarif3 .list-description span {
     font-size: 15px;
@@ -719,10 +762,8 @@ ul {
 }
 .wrapper-description .list-button button {
     font-size: 17px;
-
     text-decoration: none;
     text-align: center;
-    /*border: 3px solid #2173ce;*/
     padding: 13px 28px;
     text-transform: uppercase;
     background-color: transparent;
@@ -978,6 +1019,7 @@ footer {
 }
 .footer-medium .right-info {
     padding-left: 160px;
+    margin-right: 80px;
 }
 .list-info {
     padding-bottom: 25px;
@@ -1015,6 +1057,9 @@ footer {
     color: #ffffff;
     text-decoration: none;
 }
+.info-mail a:hover {
+    opacity: 0.7;
+}
 /*контакты*/
 .contacts-banner {
     width: 100%;
@@ -1049,32 +1094,47 @@ footer {
 }
 .info-wrapper .info-item img {
     position: absolute;
-    left: 15%;
+    left: 17%;
     top: 12%;
 
 }
 .info-wrapper .info-item {
     width: 33.3333%;
-    text-align: center;
     background-color: #fff;
     height: 260px;
     margin: 120px 15px;
     display: block;
-    padding: 30px 50px;
+    padding: 30px 60px;
     position: relative;
 }
-.contacts-info .info-item span {
+.contacts-info .info-item span:nth-child(1){
     font-size: 17px;
     line-height: 30px;
     color: #263441;
     font-weight: 700;
-   
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    padding-top: 85px;
 }
 .contacts-info .info-item p {
      font-size: 17px;
      line-height: 36px;
      color: #263441;
+    /*letter-spacing: 1px;*/
+
+
  }
+.contacts-info .info-item span:nth-child(2) {
+    font-size: 17px;
+    line-height: 36px;
+    /*color: #589ae3;*/
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    padding-top: 85px;
+}
 .contacts-info .info-item a {
     font-size: 17px;
     line-height: 36px;
