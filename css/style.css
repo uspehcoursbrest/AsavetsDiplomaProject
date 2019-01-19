@@ -1016,16 +1016,59 @@ footer {
     text-decoration: none;
 }
 /*контакты*/
+.contacts-banner {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 100px;
+    display: flex;
+
+}
 .contacts-banner span {
     font-size: 70px;
     line-height: 90px;
     color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.contacts-info {
+    background-color: #f7f7f7;
+}
+
+.contacts-info .info-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -15px;
+
+}
+.info-wrapper .info-item img {
+    position: absolute;
+    left: 15%;
+    top: 12%;
+
+}
+.info-wrapper .info-item {
+    width: 33.3333%;
+    text-align: center;
+    background-color: #fff;
+    height: 260px;
+    margin: 120px 15px;
+    display: block;
+    padding: 30px 50px;
+    position: relative;
 }
 .contacts-info .info-item span {
     font-size: 17px;
     line-height: 30px;
     color: #263441;
     font-weight: 700;
+   
 }
 .contacts-info .info-item p {
      font-size: 17px;
