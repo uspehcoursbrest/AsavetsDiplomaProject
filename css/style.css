@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 body {
@@ -270,10 +272,14 @@ a, button {
 
 }
 .about-picture {
+    background-position: center top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 715px;
+    height: 590px;
     border: 3px solid #f4f6f7;
-    padding: 25px;
-
+    box-shadow: inset 0px 0px 0px 30px #fff;
 }
 .about-picture img {
     width: 100%;
@@ -314,7 +320,7 @@ a, button {
     display: block;
     width: 55px;
     height: 4px;
-    background-color: #0069b4;
+    background-color: #589ae3;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -435,7 +441,7 @@ a, button {
     display: block;
     width: 55px;
     height: 6px;
-    background-color: #0069b4;
+    background-color: #2173ce;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -457,7 +463,7 @@ a, button {
     display: block;
     width: 56px;
     height: 56px;
-    background-color: #0069b4;
+    background-color: #2173ce;
     color: #fff;
     font-size: 20px;
     line-height: 56px;
@@ -515,7 +521,7 @@ a, button {
     display: block;
     width: 55px;
     height: 6px;
-    background-color: #0069b4;
+    background-color: #589ae3;
     position: absolute;
     bottom: 0px;
     left: 50%;
@@ -677,6 +683,7 @@ a, button {
     border: 3px solid #2173ce;
     background-color: transparent;
     margin-left: 45px;
+    cursor: pointer;
 }
 .list-button button:hover {
     text-decoration: none;
@@ -721,6 +728,7 @@ a, button {
     border: 3px solid #589ae3;
     background-color: transparent;
     margin-left: 45px;
+    cursor: pointer;
 }
 .list-tarif3 {
     background-color: #89c1ff;
@@ -759,6 +767,7 @@ a, button {
     border: 3px solid #89c1ff;
     background-color: transparent;
     margin-left: 45px;
+    cursor: pointer;
 }
 .wrapper-description .list-button button {
     font-size: 17px;
@@ -822,9 +831,25 @@ a, button {
 .reviews-wrapper {
     display: flex;
     padding-top: 100px;
+    margin: 0 -20px;
+}
+.feedback {
+    width: 50%;
+    padding: 0 20px;
 }
 .feedback-text {
-    padding: 0 20px;
+    position: relative;
+}
+.feedback-text:before {
+    content: "";
+    display: block;
+    border: 20px solid transparent;
+    position: absolute;
+    border-top: 20px solid #f7f7f7;
+    border-bottom: none;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
 }
 .feedback-text p {
     background-color: #f7f7f7;
@@ -833,7 +858,7 @@ a, button {
     color: #778b9d;
     /*width: 81%;*/
     text-align: center;
-    padding: 35px;
+    padding: 45px 35px;
 }
 .feedback-avatar .name {
     font-size: 17px;
@@ -952,12 +977,38 @@ a, button {
     display: flex;
     justify-content: space-around;
 }
-.payments .wrapper-system {
-
+.wrapper-system {
+    position: relative;
+    z-index: 1;
+}
+.wrapper-system:nth-child(3):before,
+.wrapper-system:nth-child(4):before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
+}
+.wrapper-system:nth-child(3):after,
+.wrapper-system:nth-child(4):after {
+    content: 'soon';
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    background-color: #589ae3;
+    padding: 3px 10px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    top: -11px;
+    right: -60px;
+    text-transform: uppercase;
 
 }
-.payments .wrapper-system img {
-}
+
 footer {
     font-size: 15px;
     line-height: 33px;
@@ -993,15 +1044,14 @@ footer {
     /*width: 380px;*/
 }
 .footer-medium {
-    width: 50%;
-    padding-left: 100px;
+    width: 45%;
+    padding-left: 75px;
     display: inline-block;
     /*display: flex;*/
 }
 .footer-medium .right-certificate img {
     float: left;
-    height: 180px;
-    width: 120px;
+    width: 130px;
     /*padding-right: 20px;*/
 }
 .footer-medium .right-certificate span {
@@ -1018,11 +1068,15 @@ footer {
     padding-bottom: 25px;
 }
 .footer-medium .right-info {
-    padding-left: 160px;
+    padding-left: 165px;
     margin-right: 80px;
 }
+.footer-right {
+    width: 20%;
+    padding-left: 60px;
+}
 .list-info {
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 .list-info .info-phone {
     font-size: 15px;
@@ -1033,10 +1087,11 @@ footer {
 }
 .list-info a {
     font-size: 15px;
-    line-height: 33px;
+    line-height: 19px;
     color: #ffffff;
     font-weight: 500;
     display: block;
+    text-decoration: none;
 }
 .list-info .info-only {
     font-size: 15px;
@@ -1121,14 +1176,10 @@ footer {
      font-size: 17px;
      line-height: 36px;
      color: #263441;
-    /*letter-spacing: 1px;*/
-
-
  }
 .contacts-info .info-item span:nth-child(2) {
     font-size: 17px;
     line-height: 36px;
-    /*color: #589ae3;*/
     font-weight: 700;
     text-transform: uppercase;
     display: block;
@@ -1139,6 +1190,11 @@ footer {
     font-size: 17px;
     line-height: 36px;
     color: #589ae3;
+}
+.contacts-info .info-item a:hover {
+    text-decoration-color: transparent;
+    transition: all 0.3s;
+
 }
 .contacts-map {
     position: relative;
@@ -1151,6 +1207,7 @@ footer {
     top: 0px;
     left: 0px;
 }
+
 .contacts-form .form-caption span:nth-child(1) {
     font-size: 17px;
     line-height: 70px;
@@ -1164,11 +1221,27 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
 }
+.contacts-form .form-caption span {
+    display: block;
+    text-align: center;
+
+}
 .contacts-form .form-block-item label {
+    display: block;
+    margin-bottom: 10px;
     font-size: 15px;
-    line-height: 100px;
     color: #263441;
     font-weight: 500;
+}
+.contacts-form .form-block-item input,
+.contacts-form .form-block-item textarea {
+    width: 100%
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+
 }
 .form-button button {
     font-size: 17px;
@@ -1176,4 +1249,21 @@ footer {
     color: #589ae3;
     font-weight: 700;
     text-transform: uppercase;
+    background: none;
+    border: 3px solid #589ae3;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.form-wrapper .form-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.form-wrapper .form-block .form-block-item {
+    display: block;
+    padding: 15px;
+    width: 33.333333333%;
+}
+.form-wrapper .form-block .form-block-item:last-child{
+    width: 100%;
 }
