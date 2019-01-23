@@ -98,6 +98,7 @@ a, button {
     color: #66aaf5;
     text-transform: uppercase;
     font-weight: 700;
+    width: 75px;
 }
 .top-time .time-date {
     display: inline-block;
