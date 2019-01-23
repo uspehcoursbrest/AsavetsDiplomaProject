@@ -26,4 +26,21 @@ window.onload = function () {
     }
 
     clockStart();
+
+
+    $('.banner-carousel').owlCarousel({
+        items: 1,
+        loop:true,
+        margin:10,
+        nav:true,
+        dots:false,
+    })
+
+    $('.reviews-wrapper').owlCarousel({
+        items: 2,
+        loop:true,
+        margin:40,
+        nav:false,
+        dots:true,
+    })
 }

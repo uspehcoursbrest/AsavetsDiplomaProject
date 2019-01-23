@@ -3,6 +3,9 @@
 *:after {
     box-sizing: border-box;
 }
+*:focus{
+    outline: none;
+}
 body {
     margin: 0 auto;
     font-family: "Gotham Pro";
@@ -190,6 +193,46 @@ a, button {
 .menu {
     float: right;
     height: 100%;
+}
+.banner-wrapper .owl-stage-outer{
+    display: inline-block;
+}
+.banner-wrapper .owl-carousel .owl-nav{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    width: 100%;
+    margin-top: -35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 95px;
+}
+.banner-wrapper .owl-carousel .owl-nav button {
+    display: block;
+    width: 35px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+
+}
+.banner-wrapper .owl-carousel .owl-nav button:hover{
+    background: none;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+.banner-wrapper .owl-carousel .owl-nav button.owl-prev {
+    background-image: url(../img/png/arrowL.png);
+}
+.banner-wrapper .owl-carousel .owl-nav button.owl-next {
+    background-image: url(../img/png/arrowR.png);
+}
+
+
+.banner-wrapper .owl-carousel .owl-nav button span {
+    display: none;
 }
 .banner {
     background-repeat: no-repeat;
@@ -795,11 +838,29 @@ a, button {
 .reviews-wrapper {
     display: flex;
     padding-top: 100px;
-    margin: 0 -20px;
+}
+.reviews-wrapper .owl-item img {
+    display: block;
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+}
+.reviews-wrapper .owl-nav.disabled + .owl-dots {
+    margin-top: 15px;
+}
+.reviews-wrapper .owl-dots .owl-dot span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    box-shadow: inset 0px 0px 0px 1px #61acff;
+    background-color: #fff;
+}
+.reviews-wrapper .owl-dots .owl-dot.active span,
+.reviews-wrapper .owl-dots .owl-dot:hover span{
+    background-color: #61acff;
 }
 .feedback {
-    width: 50%;
-    padding: 0 20px;
+    width: 100%;
 }
 .feedback-text {
     position: relative;
@@ -823,6 +884,9 @@ a, button {
     text-align: center;
     padding: 45px 35px;
 }
+.feedback-avatar{
+    margin-top: 45px;
+}
 .feedback-avatar .name {
     font-size: 17px;
     line-height: 30px;
@@ -837,10 +901,6 @@ a, button {
     line-height: 30px;
     font-weight: 500;
     color: #589ae3;
-}
-.feedback-avatar img {
-    padding-left: 250px;
-    padding-top: 45px;
 }
 .feedback-avatar span {
     display: block;
