@@ -37,7 +37,6 @@ a, button {
 }
 .header-top .top-time{
     margin-right: 75px;
-
 }
 .container .in icon[class="icon"] {
     display: block;
@@ -51,7 +50,6 @@ a, button {
 .header-top .in a:nth-child(2) {
     font-size: 14px;
     color: #66aaf5;
-
 }
 .header-top .in a:nth-child(2):hover {
     text-decoration-color: transparent;
@@ -119,7 +117,6 @@ a, button {
     font-weight: 300;
     display: inline-block;
     vertical-align: middle;
-
 }
 .top-reg a:nth-child(1):hover {
     opacity: 0.7;
@@ -139,9 +136,6 @@ a, button {
 }
 .header-top .top-reg a:nth-child(2):hover {
     opacity: 0.7;
-}
-.header-bottom {
-    /*display: flex;*/
 }
 .header-bottom {
     height: 90px;
@@ -202,12 +196,10 @@ a, button {
     background-size: cover;
     padding-top: 190px;
     padding-bottom: 165px;
-
 }
 .banner-caption {
     display: block;
     text-align: center;
-
 }
 .banner-caption span {
     display: table;
@@ -222,7 +214,6 @@ a, button {
     margin-left: auto;
     margin-right: auto;
 }
-
 .banner-caption span:nth-child(2) {
     font-size: 70px;
     line-height: 74px;
@@ -241,7 +232,6 @@ a, button {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
-    /*padding: 15px 20px;*/
     background-color: #589ae3;
     margin: 0 auto;
     margin-top: 13px;
@@ -255,7 +245,6 @@ a, button {
     border: 3px solid #fff;
     padding: 12px 25px;
     text-transform: uppercase;
-
 }
 .banner-caption p {
     padding-bottom: 55px;
@@ -269,7 +258,6 @@ a, button {
     align-items: flex-start;
     padding-top: 105px;
     padding-bottom: 105px;
-
 }
 .about-picture {
     background-position: center top;
@@ -370,9 +358,6 @@ a, button {
     display: block;
     text-transform: uppercase;
 }
-/*.about-info .info-certificate span:nth-child(1) {*/
-    /*padding-top: 30px;*/
-/*}*/
 .about-info .info-certificate {
     width: 315px;
     padding: 25px 25px 25px 25px;
@@ -403,11 +388,9 @@ a, button {
 .our-mission {
     display: block;
     text-align: left;
-
 }
 .our-mission .description {
     width: 560px;
-    /*padding-left: 265px;*/
 }
 .description .description-title span {
     display: block;
@@ -417,14 +400,11 @@ a, button {
 .description .description-title {
     padding-bottom: 45px;
 }
-
-
 .dt {
     font-size: 17px;
     line-height: 21px;
     color: #ffffff;
     text-transform: uppercase;
-    /*display: inline-block;*/
 }
 .dtt {
     font-size: 50px;
@@ -446,7 +426,6 @@ a, button {
     bottom: 0px;
     left: 0px;
 }
-
 .description-text p {
     font-size: 17px;
     line-height: 30px;
@@ -583,12 +562,9 @@ a, button {
     color: #263441;
     display: block;
 }
-
-
 .offers-invest {
     padding-bottom: 100px;
     padding-top: 100px;
-    /*display: inline-block;*/
 }
 .offers-invest .caption {
     padding-bottom: 70px;
@@ -596,23 +572,13 @@ a, button {
 .offers-invest .caption span {
     display: block;
     text-align: center;
-
 }
 .offers-wrapper .wrapper-list {
     width: 33.3333%;
     float: left;
 }
-.wrapper-list {
-
-
-}
-
-.offers-invest {
-
-}
 .offers-invest .cap {
     font-size: 17px;
-    /*line-height: 70px;*/
     color: #263441;
     text-transform: uppercase;
 }
@@ -635,7 +601,6 @@ a, button {
     bottom: 0px;
     left: 50%;
     margin-left: -27px;
-
 }
 .offers-wrapper .wrapper-list {
     height: 620px;
@@ -760,7 +725,6 @@ a, button {
     font-size: 17px;
     line-height: 30px;
     color: #89c1ff;
-
 }
 .wrapper-list:nth-child(3) .list-button button {
     color: #89c1ff;
@@ -826,7 +790,6 @@ a, button {
 }
 .reviews {
     padding-bottom: 150px;
-
 }
 .reviews-wrapper {
     display: flex;
@@ -856,7 +819,6 @@ a, button {
     font-size: 17px;
     line-height: 30px;
     color: #778b9d;
-    /*width: 81%;*/
     text-align: center;
     padding: 45px 35px;
 }
@@ -895,13 +857,11 @@ a, button {
     width: 33.3333%;
     float: left;
     padding: 0 15px;
-
 }
 .wrapper-new .new-info {
     background-color: #fff;
     padding-left: 20px;
     padding-top: 20px;
-
 }
 .news-caption .nc {
     font-size: 17px;
@@ -917,7 +877,6 @@ a, button {
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
-
 }
 .news-caption .nca:before {
     content: '';
@@ -971,7 +930,6 @@ a, button {
 .payments {
     padding-bottom: 55px;
     padding-top: 60px;
-
 }
 .payments-wrapper {
     display: flex;
@@ -1006,7 +964,6 @@ a, button {
     top: -11px;
     right: -60px;
     text-transform: uppercase;
-
 }
 
 footer {
@@ -1019,7 +976,6 @@ footer {
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
-
 }
 .footer-left .left-logo img {
     padding-bottom: 15px;
@@ -1027,8 +983,6 @@ footer {
 
 .footer-left {
     width: 35%;
-    /*padding-right: 100px;*/
-
 }
 .footer-left .left-text span {
     font-size: 15px;
@@ -1041,18 +995,15 @@ footer {
     font-size: 15px;
     line-height: 33px;
     color: #ffffff;
-    /*width: 380px;*/
 }
 .footer-medium {
     width: 45%;
     padding-left: 75px;
     display: inline-block;
-    /*display: flex;*/
 }
 .footer-medium .right-certificate img {
     float: left;
     width: 130px;
-    /*padding-right: 20px;*/
 }
 .footer-medium .right-certificate span {
     font-size: 15px;
@@ -1124,7 +1075,6 @@ footer {
     padding-top: 115px;
     padding-bottom: 100px;
     display: flex;
-
 }
 .contacts-banner span {
     font-size: 70px;
@@ -1132,7 +1082,6 @@ footer {
     color: #ffffff;
     font-weight: 700;
     text-transform: uppercase;
-    /*text-align: center;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -1194,7 +1143,6 @@ footer {
 .contacts-info .info-item a:hover {
     text-decoration-color: transparent;
     transition: all 0.3s;
-
 }
 .contacts-map {
     position: relative;
@@ -1207,24 +1155,41 @@ footer {
     top: 0px;
     left: 0px;
 }
-
+.contacts-form {
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-color: #f4f6f7;
+}
 .contacts-form .form-caption span:nth-child(1) {
     font-size: 17px;
-    line-height: 70px;
+
     color: #263441;
     text-transform: uppercase;
 }
 .contacts-form .form-caption span:nth-child(2) {
     font-size: 36px;
-    line-height: 50px;
     color: #263441;
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 15px;
 }
 .contacts-form .form-caption span {
     display: block;
     text-align: center;
-
+}
+.contacts-form .form-caption {
+    position: relative;
+}
+.contacts-form .form-caption span:nth-child(2):before {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 4px;
+    background-color: #589ae3;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -28px;
 }
 .contacts-form .form-block-item label {
     display: block;
@@ -1237,11 +1202,18 @@ footer {
 .contacts-form .form-block-item textarea {
     width: 100%
 }
+.contacts-form .form-block-item:nth-child(1) input,
+.contacts-form .form-block-item:nth-child(2) input,
+.contacts-form .form-block-item:nth-child(3) input {
+    height: 50px;
+}
+.contacts-form .form-block-item:nth-child(4) textarea {
+    height: 185px;
+}
 .form-button{
     display: flex;
     justify-content: center;
     padding: 40px 0px;
-
 }
 .form-button button {
     font-size: 17px;
@@ -1251,18 +1223,20 @@ footer {
     text-transform: uppercase;
     background: none;
     border: 3px solid #589ae3;
-    padding: 10px 25px;
+    padding: 7px 117px;
     cursor: pointer;
+    background-color: #f4f6f7;
 }
 .form-wrapper .form-block {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
+    padding-top: 85px;
 }
 .form-wrapper .form-block .form-block-item {
     display: block;
     padding: 15px;
-    width: 33.333333333%;
+    width: 33.3333%;
 }
 .form-wrapper .form-block .form-block-item:last-child{
     width: 100%;
