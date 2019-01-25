@@ -101,7 +101,7 @@ a, button {
     color: #66aaf5;
     text-transform: uppercase;
     font-weight: 700;
-    width: 75px;
+    width: 66px;
 }
 .top-time .time-date {
     display: inline-block;
@@ -1016,7 +1016,6 @@ a, button {
     display: inline-block;
     font-size: 12px;
     color: #ffffff;
-    font-family: "Gotham Pro";
     background-color: #589ae3;
     padding: 3px 10px;
     border-radius: 10px;
