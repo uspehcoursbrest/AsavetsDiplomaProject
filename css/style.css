@@ -1266,9 +1266,15 @@ footer {
 .contacts-form .form-block-item:nth-child(2) input,
 .contacts-form .form-block-item:nth-child(3) input {
     height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .contacts-form .form-block-item:nth-child(4) textarea {
     height: 185px;
+    font-size: 20px;
+    padding: 10px;
+
 }
 .form-button{
     display: flex;
